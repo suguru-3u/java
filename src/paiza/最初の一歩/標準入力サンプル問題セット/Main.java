@@ -1,6 +1,4 @@
-package paiza.最初の一歩;
-
-import java.util.Scanner;
+package paiza.最初の一歩.標準入力サンプル問題セット;
 
 /**
  * 問題

@@ -7,7 +7,6 @@ package atcoder;
  */
 
 
-
 import java.util.Scanner;
 
 public class Problem5 {

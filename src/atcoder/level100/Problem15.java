@@ -1,4 +1,4 @@
-package atcoder;
+package atcoder.level100;
 
 /*
  * https://atcoder.jp/contests/abc409/tasks/abc409_a

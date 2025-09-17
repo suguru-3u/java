@@ -1,4 +1,4 @@
-package atcoder;
+package atcoder.level100;
 
 /*
  *

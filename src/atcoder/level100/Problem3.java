@@ -1,4 +1,4 @@
-package atcoder;
+package atcoder.level100;
 
 /*
  * URL:https://atcoder.jp/contests/abc420/tasks/abc420_a

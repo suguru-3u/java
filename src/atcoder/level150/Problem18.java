@@ -1,26 +1,31 @@
 package atcoder.level150;
 
 /*
- * https://atcoder.jp/contests/abc407/tasks/abc407_a
+ * https://atcoder.jp/contests/abc423/tasks/abc423_a
  *
- * 問題名：A - Approximation
+ * 問題名：A - Scary Fee
  *
  *
  */
 
 import java.util.Scanner;
 
-import static java.lang.Math.round;
-
-
 public class Problem18 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double a = scanner.nextDouble();
-        double b = scanner.nextDouble();
+        int fixeValue = 1000;
 
-        System.out.println(Math.round(a / b));
+        int balance = scanner.nextInt();
+        int commission = scanner.nextInt();
+
+        int maxWithdraw = balance / (fixeValue + commission) ;
+        int result = maxWithdraw * 1000;
+        if (balance >= result) {
+            System.out.println(result);
+        } else {
+            System.out.println(0);
+        }
 
         scanner.close();
     }
